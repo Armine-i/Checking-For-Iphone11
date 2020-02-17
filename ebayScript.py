@@ -8,7 +8,7 @@ tree = html.fromstring(page.content)
 items = tree.xpath('//a[@class="vip"]/text()')
 
 account_sid = 'AC854b91ea15ddb0552b5fbff4de2827e6'
-auth_token = 'ce566dbf560fc70946bf5d08d0127b42'
+auth_token = 'TWILIO_TOKEN'
 client = Client(account_sid, auth_token)
 
 while True:
